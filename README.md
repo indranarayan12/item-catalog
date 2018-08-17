@@ -22,12 +22,12 @@ Vagrant is the software that configures the VM and lets you share files between 
 
 From the terminal, run:
 
-    git clone https://github.com/indranarayan12/item-catalog oauth
+    git clone https://github.com/indranarayan12/item-catalog item-catalog
 
 
 ## Run the virtual machine!
 
-Using the terminal, change directory to oauth (**cd oauth**), then type **vagrant up** to launch your virtual machine.
+Using the terminal, change directory to oauth (**cd item-catalog**), then type **vagrant up** to launch your virtual machine.
 
 
 ## Running the Restaurant Menu App

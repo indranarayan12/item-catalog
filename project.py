@@ -38,6 +38,7 @@ def showLogin():
     return render_template('login.html', STATE=state)
 
 
+# Login using facebook
 @app.route('/fbconnect', methods=['POST'])
 def fbconnect():
     if request.args.get('state') != login_session['state']:
@@ -244,6 +245,7 @@ def getUserID(email):
 # DISCONNECT - Revoke a current user's token and reset their login_session
 
 
+# Login using google plus
 @app.route('/gdisconnect')
 def gdisconnect():
     # Only disconnect a connected user.

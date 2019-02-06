@@ -1,4 +1,4 @@
-# item-catalog
+# Item-catalog
 A simple restaurant menu app using RESTful web application and the Python framework Flask along with implementing third-party OAuth authentication using various HTTP methods and implementing CRUD (create, read, update and delete) operations.
 
 ## Downloading and running the project
